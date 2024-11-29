@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="question">Quiz Question</h2>
+
+        <ul class="quiz">
+            <li>
+                <input type="radio" name="quiz" class="answer" id="1">
+                <label for="1" class="answerText" id="ans_click">Option 1</label>
+            </li>
+            <li>
+                <input type="radio" name="quiz" class="answer" id="2">
+                <label for="2" class="answerText" id="ans_click">Option 2</label>
+            </li>
+            <li>
+                <input type="radio" name="quiz" class="answer" id="3">
+                <label for="3" class="answerText" id="ans_click">Option 3</label>
+            </li>
+            <li>
+                <input type="radio" name="quiz" class="answer" id="4">
+                <label for="4" class="answerText" id="ans_click">Option 4</label>
+            </li>
+        </ul>
+
+        <button id="next" class="next">Next Question</button>
+    </div>
+
+    <div class="result">
+        <h2>Your result is here: You got 5/5</h2>
+        <h3>Can you do it again!</h3>
+    </div>
+
+    <script src="custom.js"></script>
+</body>
+</html>
